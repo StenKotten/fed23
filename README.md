@@ -242,6 +242,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>continu bijhouden terwijl je werkt</summary>
 
   Oefening 1 en 2 van werkgroep 1
-  <img src="readme-images/oef1-1.png" width="375px" alt="oefening1 uitwerking screenshot>
+  <img src="readme-images/oef1-1.png" width="375px" alt="oefening1 uitwerking screenshot">
   
   </details>
