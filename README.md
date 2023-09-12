@@ -242,6 +242,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>continu bijhouden terwijl je werkt</summary>
 
   Oefening 1 en 2 van werkgroep 1
-  <img src="readme-images/oef1-1.png" width="375px" alt="oefening1 uitwerking screenshot">
-  
+  <img src="readme-images/wg1oef1en2.png" width="375px" alt="oefening1 uitwerking screenshot">
+
+  Zie hierboven het resultaat van oefening 1 en 2. Mijn uitwerking is niet perfect, want de appelboer poster werkt niet responsive. De onderdelen van de zin blijven niet juist onder elkaar staan.
   </details>
