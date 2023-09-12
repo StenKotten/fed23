@@ -62,7 +62,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Als ik naar de volgende heading wil door op H te klikken, zegt de screenreader alleen "scannen". Na een poosje te wachten gebeurt er niks. Ook nog een keer op H klikken heeft geen effect.
   Wanneer ik op K klik om naar de volgende link te gaan, krijg ik een pop-up met de vraag of ik naar de content wil skippen.
   Bij het gaan naar de volgende link pakt hij een random slide van de caroussel, zoals 4 van de 5. De screenreader geeft ook niet echt een goede beschrijving van hoe de slide eruit ziet, alleen de tekst.
-  Na met K twee keer door de hele caroussel te zijn gegaan, kom ik eindelijk bij de volgende sectie uit, en ik hoor "lees meer"... Je kan dus niet met de heading scanner de site navigeren, maar als je de link scanner gebruikt sla je een gedeelte van de content over.
+  Na met K twee keer door de hele caroussel te zijn gegaan, kom ik eindelijk bij de volgende sectie uit, en ik hoor "lees meer"... Je kan dus niet met de heading scanner de site navigeren, maar als je de link scanner gebruikt sla je een gedeelte van de content over. 
+  De volgende links zijn 'Coca cola logo', 'Fanta logo' etc., echter heeft de gebruiker geen context over deze button, waar ga je naartoe en wat er te wachten staat is nog onduidelijk voor de gebruiker. Het volgende dat wordt gehoord is "Alle bekijken".
+  In de footer, waar je je locatie kan selecteren, wordt gewoon de al geselecteerde locatie opgenoemd. Gebruiker wordt met veel vragen afgelaten.
 
 </details>
 
