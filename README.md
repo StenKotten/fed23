@@ -60,11 +60,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ## Screenreader
   Bij het gebruiken van de screenreader en het openen van de site wordt de tagline "De wereld verfrissen en het verschil maken, coca cola". 
   Als ik naar de volgende heading wil door op H te klikken, zegt de screenreader alleen "scannen". Na een poosje te wachten gebeurt er niks. Ook nog een keer op H klikken heeft geen effect.
-  Wanneer ik op K klik om naar de volgende link te gaan, krijg ik een pop-up met de vraag of ik naar de content wil skippen.
+  Wanneer ik op K klik om naar de volgende link te gaan, krijg ik een pop-up met de vraag of ik naar de content wil skippen. Door op enter te klikken wil ik de content skippen, echter vertelt de screenreader voor de tweede keer de tagline van de website. Door op K te klikken probeer ik verder door te website te komen, maar ik krijg nog steeds allen van de header/banner te horen.
   Bij het gaan naar de volgende link pakt hij een random slide van de caroussel, zoals 4 van de 5. De screenreader geeft ook niet echt een goede beschrijving van hoe de slide eruit ziet, alleen de tekst.
   Na met K twee keer door de hele caroussel te zijn gegaan, kom ik eindelijk bij de volgende sectie uit, en ik hoor "lees meer"... Je kan dus niet met de heading scanner de site navigeren, maar als je de link scanner gebruikt sla je een gedeelte van de content over. 
   De volgende links zijn 'Coca cola logo', 'Fanta logo' etc., echter heeft de gebruiker geen context over deze button, waar ga je naartoe en wat er te wachten staat is nog onduidelijk voor de gebruiker. Het volgende dat wordt gehoord is "Alle bekijken".
   In de footer, waar je je locatie kan selecteren, wordt gewoon de al geselecteerde locatie opgenoemd. Gebruiker wordt met veel vragen afgelaten.
+
+  Ook op de merk pagina van Fanta kan ik H niet gebruiken om door de Headings te gaan. K Werkt wel om door de links te gaan. Content skippen kan wederom niet. De eerst volgende linkjes die te horen zijn na de banner zijn alle social links en daarna weer de footer.
+
+  Conclusie: de website is niet te gebruiken met een screenreader, vooral omdat de heading scan niet bruikbaar is op de website, en alleen via de linkjes is er geen pap van te maken.
+
+  ## WCAG Checklist
+  
 
 </details>
 
