@@ -256,9 +256,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Oefening 1 en 2 van werkgroep 1
+  ### Oefening 1 en 2 van werkgroep 1
   <img src="readme-images/wg1oef1en2.png" width="375px" alt="oefening1 uitwerking screenshot">
 
   Zie hierboven het resultaat van oefening 1 en 2. Mijn uitwerking is niet perfect, want de appelboer poster werkt niet responsive. De onderdelen van de zin blijven niet juist onder elkaar staan.
   Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/poqPZvx?editors=1100">CodePen Oefening 1 en 2 van Sten</a>
+
+  ### Oefening 1 Grid
+  De oefening van Grid heb ik tot en met som 5 zonder de uitwerking gemaakt. Som 6 lukte niet, omdat iets nog aan stond wat de boel verpestte. Met de uitwerking ernaast lukte het me om de code op de goede plek te zetten. 
+  Ik heb som 7 (voor de rode piste) ook nog gedaan, zonder de uitwerking, maar als de selectoren al niet in de codepen stonden was het me denk ik niet zo makkelijk gelukt.
+  Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/BavmQEB">CodePen Grid Oefening 1 van Sten</a>
+
+  ### Oefening 2 Grid
+  Alleen de laatste is me niet gelukt.
+  Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/dywZNZE">CodePen Grid Oefening 2 van Sten</a>
+
   </details>
+
+  
