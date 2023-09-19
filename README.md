@@ -272,7 +272,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/dywZNZE">CodePen Grid Oefening 2 van Sten</a>
 
   ### Oefening 1 Flex
-  Oefening is gelukt zonder naar de uitwerkingen te kijken! Ik vond deze makkelijker dan de grid oefeningen. Het juist selecteren van de parent en child is iets dat naar mijn idee best wel goed gaat.
+  Oefening is gelukt zonder naar de uitwerkingen te kijken! Ik vond deze makkelijker dan de grid oefeningen. Zelfs de zwarte piste oefening was gelukt! Het juist selecteren van de parent en child is iets dat naar mijn idee best wel goed gaat.
   Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/LYMOzRj?editors=1100">CodePen Flex Oefening 2 van Sten</a>
 
   </details>
