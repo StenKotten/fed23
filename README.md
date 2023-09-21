@@ -122,10 +122,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - script moet onderaan de body
+  - dropdown kan worden gedaan met javascript
+  - plek van de h1 in de html is goed
+  - rest van de html ziet er ook prima uit
 
 </details>
 
