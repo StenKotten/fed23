@@ -16,7 +16,9 @@
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:#ebebeb;
+	--color-foreground:#fff;
+	--color-footer:#000;
 }
 
 
@@ -28,4 +30,16 @@
 /****************/
 
 /* jouw code */
+body {
+	font-family: "Noto sans";
+	background-color: var(--color-background);
+}
 
+header {
+	background-color: var(--color-foreground);
+}
+
+footer {
+	background-color: var(--color-footer);
+	color: var(--color-foreground);
+}
