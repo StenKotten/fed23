@@ -71,7 +71,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Conclusie: de website is niet te gebruiken met een screenreader, vooral omdat de heading scan niet bruikbaar is op de website, en alleen via de linkjes is er geen pap van te maken.
 
   ## WCAG Checklist
-  
+  De coca cola website kwam niet heel erg goed door de WCAG checklist. Er is zeker ruimte voor verbeteringen.
+  Beschrijvingen van links waren een beetje onduidelijk. 
+  Het veranderen van de windows text grootte doet niks.
+  Qua contrast was het meeste goed, alleen de h2 tekst boven op de carousel afbeeldingen was niet goed genoeg. De focus state erover was ook onvoldoende.
+  De html check gaf weer dat er verschillende soorten errors waren. Na een fatale error kon de checker niet verder met zoeken.
 
 </details>
 
@@ -110,9 +114,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | melvin         | edward             | jesse        | sten             |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | in en uit klappen nav bar             | wat wordt er verwacht van functionaliteiten als filters?    | html check    |
-  | en dat ook nog | mag je hr's gebruiken? | nog een punt | hoe maak je een dropdown? |
-  | ...            | ...                | ...          | ...              |
+  | h1 in de header of main wanneer verborgen? | in en uit klappen nav bar             | wat wordt er verwacht van functionaliteiten als filters?    | html check    |
+  | logo gebruiken als h1 | mag je hr's gebruiken? | nog een punt | hoe maak je een dropdown? |
+  | html check en carousels goed? | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
