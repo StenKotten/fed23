@@ -149,8 +149,8 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
 
   | melvin         | edward             | jesse        | sten             |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | waarom sommige afbeeldingen/iconen bij mij niet worden weergegeven op de website;             | hoe ik de text dropdowns van mijn site het beste kan aanpakken    | gebruik van webp ipv png of jpg.    |
-  | en dat ook nog | hoe je een specifieke font (van je font-face) selecteert om te gebruiken in je CSS (als je er bijv. meerdere hebt); | nog een punt | het juist croppen en schalen van img' s. |
+  | Hoe ik de tekst passend krijg binnen een carrousel (werkt nog niet goed).   | waarom sommige afbeeldingen/iconen bij mij niet worden weergegeven op de website;             | hoe ik de text dropdowns van mijn site het beste kan aanpakken    | gebruik van webp ipv png of jpg.    |
+  | De content op de website van Nike wat nu live staat veranderd elke dag waardoor bepaalde afbeeldingen die ik nu toevoeg niet meer aansluiten op de eerder geschreven content. Wat raad je aan om te doen. | hoe je een specifieke font (van je font-face) selecteert om te gebruiken in je CSS (als je er bijv. meerdere hebt); | nog een punt | het juist croppen en schalen van img' s. |
   | ...            | tot slot een check naar de lay-out (CSS) van mijn header, omdat die nog niet wil lukken.               | ...          | img een layer naar achter plaatsen             |
   |  |  |  | juist selecteren van de laatste a in section 3 voor styling |
 
