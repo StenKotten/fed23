@@ -141,16 +141,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 Ik ben ongeveer anderhalve week ziek geweest :( ik vond het moeilijk om op de juiste manier de imgs te croppen en scalen.
+<img src='readme-images/voortgang2-1.png'> <img src='readme-images/voortgang2-2.png'> 
+ik probeer het door een max width en height te geven aan de img, alleen ziet het er nog lelijk uit.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
   | melvin         | edward             | jesse        | sten             |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | dit bespreken  | waarom sommige afbeeldingen/iconen bij mij niet worden weergegeven op de website;             | hoe ik de text dropdowns van mijn site het beste kan aanpakken    | gebruik van webp ipv png of jpg.    |
+  | en dat ook nog | hoe je een specifieke font (van je font-face) selecteert om te gebruiken in je CSS (als je er bijv. meerdere hebt); | nog een punt | het juist croppen en schalen van img' s. |
+  | ...            | tot slot een check naar de lay-out (CSS) van mijn header, omdat die nog niet wil lukken.               | ...          | img een layer naar achter plaatsen             |
+  |  |  |  | juist selecteren van de laatste a in section 3 voor styling |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
