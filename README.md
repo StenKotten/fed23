@@ -157,10 +157,11 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - aan de li een width: 80% geven en flex-shrink: 0; om de foto goed te laten schalen.
+  - geen negatieve margins gebruiken.
+  - svg element kopieren
+  - > = een direct child selector, gebruiken om juiste a te selecteren.
+- positioneren oefeningen nog maken!
 
 </details>
 
@@ -278,7 +279,13 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
 
   ### Oefening 1 Flex
   Oefening is gelukt zonder naar de uitwerkingen te kijken! Ik vond deze makkelijker dan de grid oefeningen. Zelfs de zwarte piste oefening was gelukt! Het juist selecteren van de parent en child is iets dat naar mijn idee best wel goed gaat.
-  Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/LYMOzRj?editors=1100">CodePen Flex Oefening 2 van Sten</a>
+  Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/LYMOzRj?editors=1100">CodePen Flex Oefening 1 van Sten</a>
+
+
+
+### Oefening 1 Positioneren
+Ik ben een tijdje ziek geweest, en deze oefening nog niet gemaakt. Ik had een vraag tijdens het tweede voortgangsgesprek over positioneren, en die is na het maken van de oefeningen opgelost met de z-index.
+Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/jOXdxvZ">CodePen Flex Oefening 1 van Sten</a>
 
   </details>
 
