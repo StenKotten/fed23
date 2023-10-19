@@ -189,17 +189,20 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Tijdens het maken van het hamburger menu ben ik tegen een probleem aangelopen. Het lukt om het menu te laten openen met de knop, alleen de menu items verschijnen niet. Dit is vreemd want de knop om te sluiten beweegt wel mee.
+  Verder zijn er nog wat kleine lelijkheidjes zoals een gradient die niet helemaal tot onder gaat en de tekst meeneemt. Het plaatsen van elementen op de juiste plek en ze laten gedragen zoals ik wil is best wel lastig voor mij.
+  <img src='readme-images/voortgang3-1.png'>
+  Nog niet met pagina twee begonnen, maar ik denk dat als deze pagina af is dat de tweede er zo achter aan gaat.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | melvin      | edward         | jesse    | sten        |
+  | ---            | ---                | ---          | hoe zet ik het logo in het centrum van de knop?              |
+  | dit bespreken  | en dit             | en ik dit    |waarom verschijnen mijn menu items niet?      |
+  | en dat ook nog | dit als er tijd is | nog een punt | hoe zorg ik dat de gradient de tekst niet meeneemt en doorgaat tot het onderste van het kaartje? |
+  | ...            | ...                | ...          | andere lelijkheidjes              |
 
 
   ### Verslag van meeting
