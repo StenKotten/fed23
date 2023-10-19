@@ -200,9 +200,9 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
 
   | melvin      | edward         | jesse    | sten        |
   | ---            | ---                | ---          | ---    |
-  | dit bespreken  | en dit             | en ik dit    | waarom verschijnen mijn menu items niet?      |
-  | en dat ook nog | dit als er tijd is | nog een punt | hoe zorg ik dat de gradient de tekst niet meeneemt en doorgaat tot het onderste van het kaartje? |
-  | ...            | ...                | ...          | andere lelijkheidjes              |
+  | Ik heb een link wat een button moet zijn. Kan ik hiervoor een class gebruiken? Wat is het alternatief?  | algemene vraag over States, als je bijv. een link (a) stylet als button, of dan bijv. de visited state nog van toepassing is             | hoe ik de text dropdowns van mijn site het beste kan aanpakken    | waarom verschijnen mijn menu items niet?      |
+  | Voor de video met de pauze/play button heb ik een class en ID toegevoegd. Is dat oké? | waarom mijn menu items (ook) niet verschijnen? | nog een punt | hoe zorg ik dat de gradient de tekst niet meeneemt en doorgaat tot het onderste van het kaartje? |
+  | Hoe zorg ik ervoor dat de afbeeldingen in de carroussel meeschalen met de website (voor desktop)            | tierelantijntje van DigiD nét boven de footer (donkerblauw vierkant vlakje), hoe ik die moet aanpakken in de HTML/CSS.                | ...          | andere lelijkheidjes              |
   | ...            | ...                | ...          | hoe zet ik het logo in het centrum van de knop?      |
 
 
