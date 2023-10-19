@@ -199,10 +199,11 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   samen met je groepje opstellen
 
   | melvin      | edward         | jesse    | sten        |
-  | ---            | ---                | ---          | hoe zet ik het logo in het centrum van de knop?              |
-  | dit bespreken  | en dit             | en ik dit    |waarom verschijnen mijn menu items niet?      |
+  | ---            | ---                | ---          | ---    |
+  | dit bespreken  | en dit             | en ik dit    | waarom verschijnen mijn menu items niet?      |
   | en dat ook nog | dit als er tijd is | nog een punt | hoe zorg ik dat de gradient de tekst niet meeneemt en doorgaat tot het onderste van het kaartje? |
   | ...            | ...                | ...          | andere lelijkheidjes              |
+  | ...            | ...                | ...          | hoe zet ik het logo in het centrum van de knop?      |
 
 
   ### Verslag van meeting
