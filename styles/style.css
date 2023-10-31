@@ -68,10 +68,15 @@ header nav {
   	align-content: start;
 	z-index: 1;
 
-	background-color: var(--color-foreground);
+	
 	translate:-100% 0%;
 
 	transition:translate .5s;
+}
+
+svg {
+	height: 1rem;
+	width: 2rem;
 }
 
 header nav.toonMenu {
@@ -80,9 +85,14 @@ header nav.toonMenu {
 
 header nav ul {
 	list-style-type: none;
-	translate:-100% 0%;
+	
+	
 }
 
+header nav ul li {
+	background-color: red;
+	z-index: 1;
+}
 
 header a img {
 	height: 4em;
@@ -135,6 +145,14 @@ section:nth-of-type(1) img {
 	object-position: center;
 	border-radius: .75em;
 	
+}
+/* thuis verder */
+section:nth-of-type(1) img::after {
+	content:"";
+	background: linear-gradient(0deg, rgba(2,0,36,0.8072362734156162) 0%, rgba(49,49,65,0.5831466375612745) 69%, rgba(255,255,255,0) 100%); /* gradient gemaakt met https://cssgradient.io/ */
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 section:nth-of-type(1) ul li:first-child img {
