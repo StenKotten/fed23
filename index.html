@@ -13,7 +13,7 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,20 +24,58 @@
 		<a>
 			<img src="images/logo_zwart.webp" alt="coca-cola logo, home knop"> 
 		</a>
-		<button aria-label="Menu"><img src="https://assets.codepen.io/274456/ui-icon-hamburger.svg" alt="hamburger" /></button>
+		<button aria-label="Open menu"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+			<path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"></path>
+			</svg></button>
 		<nav>
-			<button><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 64 64" id="cross"><line x1="9.37" x2="54.63" y1="9.37" y2="54.63" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width="4"></line><line x1="9.37" x2="54.63" y1="54.63" y2="9.37" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width="4"></line></svg> </button>
+			<button aria-label="Sluit menu"><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 64 64" id="cross"><line x1="9.37" x2="54.63" y1="9.37" y2="54.63" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width="4"></line><line x1="9.37" x2="54.63" y1="54.63" y2="9.37" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width="4"></line></svg> </button>
 			<ul>
 				<li>
 					<a href="#">Merken</a>
 				</li>
 				<li>
-					<button>Ontdek</button>
+					<button aria-label="Open ontdek">Ontdek <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/></svg></button>
+					<ul>
+						<li>
+							<a href="#">Coca-Cola App</a>
+						</li>
+						<li>
+							<a href="#">Fanta Halloween</a>
+						</li>
+						<li>
+							<a href="#">Coca-Cola Creations</a>
+						</li>
+						<li>
+							<a href="#">Festivals</a>
+						</li>
+						<li>
+							<a href="#">Coke Studio</a>
+						</li>
+						<li>
+							<a href="#">Coke Meals</a>
+						</li>
+						<li>
+							<a href="#">Sprite Heat</a>
+						</li>
+						<li>
+							<a href="#">Sweat is Beautiful</a>
+						</li>
+					</ul>
 				</li>
 				<li>
-					<button>Impact</button>
+					<button aria-label="Open impact">Impact <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/></svg></button>
+					<ul>
+						<li>
+							<a href="#">Duurzaamheid</a>
+						</li>
+						<li>
+							<a href="#">Maatschappij</a>
+						</li>
+					</ul>
 				</li>
 			</ul>
+			<p>Selecteer locatie</p>
+			<a>Nederland<svg aria-label="Uw huidige locatie" fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 395.71 395.71" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738 c0.579,0.792,1.501,1.255,2.471,1.255c0.985,0,1.901-0.463,2.486-1.255l4.948-6.738c5.308-7.211,129.896-177.501,129.896-250.388 C335.179,61.609,273.569,0,197.849,0z M197.849,88.138c27.13,0,49.191,22.062,49.191,49.191c0,27.115-22.062,49.191-49.191,49.191 c-27.114,0-49.191-22.076-49.191-49.191C148.658,110.2,170.734,88.138,197.849,88.138z"></path> </g> </g></svg></a>
 		</nav>
 	</header>
 <main>
@@ -73,7 +111,7 @@
 				<p>Wij streven ernaar om een duurzamere en betere toekomst te creëren voor iedereen. Om een verschil te maken in de levens van mensen, in gemeenschappen en voor onze planeet door op de juiste manier zaken te doen. Door beter te doen als bedrijf, kunnen we bijdragen aan een sterkere, duurzamere toekomst voor ons allemaal.</p>
 				<a href="#">Lees meer</a>
 			</article>
-			<img src="images/section2image.webp" alt="Een uit gerecycled materiaal gemaakt recycle logo boven een struik"> <!-- recycle img-->
+			<img src="images/section2image.webp" alt="Een uit gerecycled materiaal gemaakt recycle logo boven een groene struik"> <!-- recycle img-->
 		</section>
 		<section> <!-- Onze merken-->
 			<h2>Verken onze merken</h2>
@@ -108,23 +146,39 @@
 		</section>
 	</main>
 	<footer>
-		<img src="images/logo_wit.webp" alt="Coca-Cola logo">
-		<a href="#">Nederland</a>
-		<h2>Over ons</h2>
-		<h2>Hulp nodig?</h2>
+		<section>
+			<img src="images/logo_wit.webp" alt="Coca-Cola logo">
+			<a href="#">Nederland</a>
+		</section>
+		<section>
+			<button aria-label="Open over ons">Over ons</button>
+			<button aria-label="Open hulp nodig">Hulp nodig?</button>
+		</section>
 		<!--voorwaarden etc-->
-		<a href="#">Voorwaarden</a>
-		<a href="#">Cookiebeleid</a>
-		<a href="#">Privacybeleid</a>
-		<a href="#">Cookie-instellingen</a>
+		<section>
+			<a href="#">Voorwaarden</a>
+			<a href="#">Cookiebeleid</a>
+			<a href="#">Privacybeleid</a>
+			<a href="#">Cookie-instellingen</a>
+		</section>
 		<!--social media-->
-		<a href="#">Twitter</a>
-		<a href="#">Instagram</a>
-		<a href="#">Youtube</a>
-		<a href="#">Facebook</a>
-		<a href="#">Available on the appstore</a>
-		<a href="#">Get it on google play</a>
-		<p>© The Coca‑Cola Company, alle rechten voorbehouden</p>
+		<section>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+				<path d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z"></path>
+			</svg></a>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+				<path d="M 8 3 C 5.239 3 3 5.239 3 8 L 3 16 C 3 18.761 5.239 21 8 21 L 16 21 C 18.761 21 21 18.761 21 16 L 21 8 C 21 5.239 18.761 3 16 3 L 8 3 z M 18 5 C 18.552 5 19 5.448 19 6 C 19 6.552 18.552 7 18 7 C 17.448 7 17 6.552 17 6 C 17 5.448 17.448 5 18 5 z M 12 7 C 14.761 7 17 9.239 17 12 C 17 14.761 14.761 17 12 17 C 9.239 17 7 14.761 7 12 C 7 9.239 9.239 7 12 7 z M 12 9 A 3 3 0 0 0 9 12 A 3 3 0 0 0 12 15 A 3 3 0 0 0 15 12 A 3 3 0 0 0 12 9 z"></path>
+			</svg></a>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+				<path d="M21.582,6.186c-0.23-0.86-0.908-1.538-1.768-1.768C18.254,4,12,4,12,4S5.746,4,4.186,4.418 c-0.86,0.23-1.538,0.908-1.768,1.768C2,7.746,2,12,2,12s0,4.254,0.418,5.814c0.23,0.86,0.908,1.538,1.768,1.768 C5.746,20,12,20,12,20s6.254,0,7.814-0.418c0.861-0.23,1.538-0.908,1.768-1.768C22,16.254,22,12,22,12S22,7.746,21.582,6.186z M10,15.464V8.536L16,12L10,15.464z"></path>
+			</svg></a>
+			<a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
+				<path d="M12,2C6.477,2,2,6.477,2,12c0,5.013,3.693,9.153,8.505,9.876V14.65H8.031v-2.629h2.474v-1.749 c0-2.896,1.411-4.167,3.818-4.167c1.153,0,1.762,0.085,2.051,0.124v2.294h-1.642c-1.022,0-1.379,0.969-1.379,2.061v1.437h2.995 l-0.406,2.629h-2.588v7.247C18.235,21.236,22,17.062,22,12C22,6.477,17.523,2,12,2z"></path>
+			</svg></a>
+			<a href="#"><img src="images/badge_apple.webp" alt="Available on the appstore"></a>
+			<a href="#"><img src="images/badge_google.webp" alt="Get it on google play"></a>
+			<p>© The Coca‑Cola Company, alle rechten voorbehouden</p>
+		</section>
 	</footer>
 
 	<script defer src="scripts/script.js"></script>
