@@ -46,6 +46,7 @@ body {
 header {
 	background-color: var(--color-foreground);
 	font-family: "Noto sans";
+	display: flex;
 }
 
 header > button,
@@ -220,9 +221,10 @@ section:nth-of-type(1) ul li a {
 	
 }
 
-section:nth-of-type(1) ul li a:focus { /* */
+section:nth-of-type(1) ul li a:focus,
+section:nth-of-type(1) ul li a:hover { /* */
 	color: var(--color-colarood);
-	box-shadow: var(--color-colarood);
+	box-shadow: 0em 0em 2em 0.5em var(--color-colarood);
 }
 
 section:nth-of-type(1) img { 
@@ -279,11 +281,6 @@ footer section:nth-of-type(1) > a { /* lees meer, locatie en alles bekijken butt
 	display: block;
 	border-width: 0.15em;
 	border-radius: 1em;
-}
-
-section:nth-of-type(2) article a:active, /* geen idee meer wat dit is */
-section:nth-of-type(3) > a:active {
-	color: var(--color-button-state);
 }
 
 footer section:nth-of-type(1) a {
@@ -350,22 +347,30 @@ section:nth-of-type(3) ul li {
 	padding: 1em;
 	border-radius: 1em;
 	box-shadow: var(--color-shadow) 0em 0.1em 2em ;
-	min-width: 8em;
+	width: 8em;
 	min-height: 8em;
+
 	
 	
 }
 
 section:nth-of-type(3) ul li img {
 	max-height: 5.5em;
-	max-width: 5.5em;
+	max-width: 4em;
+	position: relative;
+	
+	
 }
 
-section:nth-of-type(3) ul li a { 
+section:nth-of-type(3) ul li img:nth-of-type(1),
+section:nth-of-type(3) ul li img:nth-of-type(3) {
+	top: 2em;
+}
+
+section:nth-of-type(3) ul li a { /*zet de logos in het midden op de verticale as*/
 	display:flex;
   	justify-content:center;
   	align-items: center;
-	/* hoe zet ik het logo in het centrum van de knop? */
 }
 
 
@@ -415,22 +420,45 @@ footer section:nth-of-type(2) a,
 footer section:nth-of-type(3) a,
 footer section:nth-of-type(4) a {
 	text-decoration: none;
+	color: var(--color-background);
 }
 
 footer section:nth-of-type(3) {
 	display: grid;
   	grid-template-columns: 1fr 1fr;
+	position: relative;
+	top: 1em;
 }
 
-footer section:nth-of-type(3) a:focus {
+footer section:nth-of-type(4) a:focus,
+footer section:nth-of-type(4) a:hover { /* states voorwaarden */
 	color: var(--color-colarood);
 	border-style: solid;
+	border-color: var(--color-fadedbackground);
+	background-color: var(--color-colarood);
+}
+
+footer section:nth-of-type(4) { /*social media*/
+	position: relative;
+	top: 2em;
 }
 
 footer section:nth-of-type(4) svg {
 	filter: invert(1);
 	height: 2rem;
 	width: 2em;
+}
+
+footer section:nth-of-type(5) {
+	position: relative;
+	top: 2em;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer section:nth-of-type(5) img {
+	height: 4em;
+
 }
 
 footer p {
