@@ -254,9 +254,9 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://codepen.io/shooft/pen/MWZYoqa?editors=0010 voor hamburger menu
+  2. https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+  3. https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content
 
 </details>
 
