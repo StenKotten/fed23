@@ -257,6 +257,7 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   1. https://codepen.io/shooft/pen/MWZYoqa?editors=0010 voor hamburger menu
   2. https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
   3. https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content
+  4. https://www.w3schools.com/jsref/prop_style_transform.asp
 
 </details>
 
