@@ -293,6 +293,9 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
 Ik ben een tijdje ziek geweest, en deze oefening nog niet gemaakt. Ik had een vraag tijdens het tweede voortgangsgesprek over positioneren, en die is na het maken van de oefeningen opgelost met de z-index.
 Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/jOXdxvZ">CodePen Flex Oefening 1 van Sten</a>
 
+### week x
+ik was al een tijdje aan het worstelen met het centreren van de merk logos in de knop.  <img src="readme-images/week8-1.png" width="375px" alt=""> <img src="readme-images/week8-2.png" width="375px" alt="">
+Ik gebruik chat-gpt wel eens om de juiste selector te vinden, en bij het typen van mijn vraag besefte ik mijn fout! Ik had namelijk het li element gestyled in plaats van het a element. Het enige wat ik nog moest toevoegen was dus een a.
   </details>
 
   
