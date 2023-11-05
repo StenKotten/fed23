@@ -259,6 +259,9 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   3. https://www.w3schools.com/css/css3_flexbox_container.asp#justify-content
   4. https://www.w3schools.com/jsref/prop_style_transform.asp
   5. https://alvarotrigo.com/blog/sticky-navbar/
+  6. https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode
+  7. https://www.computerhope.com/issues/ch000049.htm
+  8. https://css-tricks.com/how-to-create-a-skip-to-content-link/
 
 </details>
 
