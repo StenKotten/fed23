@@ -263,6 +263,9 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   7. https://www.computerhope.com/issues/ch000049.htm
   8. https://css-tricks.com/how-to-create-a-skip-to-content-link/
   9. https://alvarotrigo.com/blog/css-animations-scroll/
+  10. https://pngtree.com/freepng/fire-explosion-blast-flame-png-transparent_4199261.html
+  11. https://www.coca-cola.com/nl/nl
+  12. https://www.youtube.com/watch?v=z54MpfR3XE4
 
 </details>
 
