@@ -266,6 +266,7 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   10. https://pngtree.com/freepng/fire-explosion-blast-flame-png-transparent_4199261.html
   11. https://www.coca-cola.com/nl/nl
   12. https://www.youtube.com/watch?v=z54MpfR3XE4
+  13. https://fontawesomeicons.com/svg/icons/chevron-down
 
 </details>
 
