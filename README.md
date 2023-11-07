@@ -1,13 +1,4 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
 
 
 ## Jij
@@ -22,7 +13,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Blauwe piste
 
   #### Je focus:
-  Responsive
+  Surface
  
 </details>
 
@@ -41,6 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   hier de naam van de pagina  
   <img src="readme-images/screenshot1.png" width="375px" alt="omschrijving van de pagina">
+ 
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
@@ -92,7 +84,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/breakdown2.png" width="375px" alt="breakdown van een dynamisch deel">
 
-  
+   <img src="readme-images/breakdown3.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
@@ -209,9 +201,9 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
+  - ::after gebruiken bij de img
+  - aria labels toevoegen
+  - margin over de body weg
   - ...
 
 </details>
