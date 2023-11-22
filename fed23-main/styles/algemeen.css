@@ -1,0 +1,510 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+    box-sizing:border-box;  
+  }
+  
+
+  /*********************/
+  /* CUSTOM PROPERTIES */
+  /*********************/
+  :root {
+      --color-text:#111;
+      --color-background:#ebebeb;
+      --color-foreground:#fff;
+      --color-merk:#fff;
+      --color-header:rgb(241, 241, 241);
+      --color-footer:#000;
+      --color-shadow:#dbd8d8;
+  
+      --color-colarood:rgb(223, 50, 50); 
+      --color-colaroodfocus:rgb(97, 44, 44);
+      --color-colaroodbackground:rgba(223, 50, 50, 0.479);
+      --color-fadedbackground:#302e2e;
+      --color-grey:#a3a3a3;
+  
+      --color-twitter:rgb(20, 150, 202);
+      --color-insta:rgb(209, 38, 124);
+      --color-facebook:rgb(53, 22, 194);
+  
+      --noto-sans:
+  }
+  
+  @media (prefers-color-scheme: dark) { /* https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode */
+      :root {
+      --color-text:#e0e0e0;
+      --color-background:#0a0808;
+      --color-foreground:#0e0e0e;
+      --color-merk:#d4c3c3;
+      --color-footer:#000;
+      --color-shadow:#0f0101;
+      --color-grey:#d4d4d4;
+      --color-colaroodbackground:rgba(226, 142, 142, 0.233);
+      }
+  }
+  
+  @media (prefers-color-scheme: dark) { /* veranderd tekst */
+      p {
+          font-weight: 300;
+          line-height: 1.75em;
+      }
+  }
+  
+  @media (prefers-color-scheme: dark) { /* veranderd svgs in de juiste kleur */
+      svg {
+          filter: invert(1);
+      }
+  }
+  
+  @media (prefers-color-scheme: dark) { /* veranderd het hamburger menu in de juiste kleur */
+      header > button {
+          filter: invert(1);
+      }
+  }
+
+  
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background-color: var(--color-background);
+	margin: 0;
+}
+
+
+h1,
+header nav ul li ul {
+	display: none;
+    color: var(--color-text);
+}
+
+button { /* alle styling weg halen van button. bron: https://stackoverflow.com/questions/2460100/remove-the-complete-styling-of-an-html-button-submit */
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+body > a { /* skip to content button */
+	position: absolute;
+	left: 20%;
+	right: 20%;
+	transform: translateY(-100%);
+	transition: transform 0.3s;
+
+	background-color: var(--color-fadedbackground);
+	color: var(--color-text);
+	height: 2em;
+	padding: .2em;
+	z-index: 2;
+
+	text-align: center;
+}
+
+body > a:focus { /* zet skip content op het scherm*/
+	transform: translateY(0%);
+}
+
+
+
+
+
+
+/* header menu dingen */
+header {
+	background-color: var(--color-header);
+	font-family: "Noto sans";
+	display: flex;
+	justify-content: space-between;
+	position: sticky; /* https://alvarotrigo.com/blog/sticky-navbar/ */
+	top: 0;
+	z-index: 1;
+}
+
+header a img { /*coca cola logo */
+	height: 4em;
+	padding: 1em;
+}
+
+header > button { /* hamburger menu */
+	position: relative;
+	right: 1.25em;
+}
+
+header nav > button { /* sluit */
+	position: absolute;
+	top: 2em;
+	right: 2em;
+	padding: 1em
+}
+
+header button img {
+	filter: invert(1);
+}
+
+
+
+header nav {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+	background-color: var(--color-foreground);
+	
+	translate:-100% 0%;
+
+	transition:translate .5s;
+}
+
+@media (prefers-reduced-motion) {
+    header nav {
+        transition:translate 4s;
+    }
+}
+
+header nav.toonMenu {
+	translate:0% 0%; /*zet menu op het scherm */
+}
+
+header nav > ul {
+	list-style-type: none;
+	position: relative;
+	top: 5em;
+	left: -0.8em;
+}
+
+header nav ul {
+	list-style-type: none;
+}
+
+
+header nav ul li a { /*Merken */
+	text-decoration: none;
+	font-size: 1.8em;
+	font-weight: 600;
+	color: var(--color-text);
+	line-height: 2em;
+	display: block;
+}
+
+
+header nav ul li button { /* ontdek en impact button*/
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+	font-size: 1.8em;
+	font-weight: 600;
+	color: var(--color-text);
+	line-height: 2em;
+	display: block;
+	width: 95%;
+	text-align: left;
+
+	position: relative;
+
+}
+
+header nav ul li button.open svg {
+ rotate: 90deg;
+}
+
+header nav ul li ul li a { /* sub menu items */
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: 400;
+	color: var(--color-text);
+	display: block;
+	padding-bottom: 0.5em;
+}
+
+svg {
+	height: 1.5em;
+	width: 2em;
+}
+
+header nav ul li button svg { /* chevrons */
+	position: absolute;
+	right: 0;
+	top: -0.25em;
+	transform: rotate(270deg);
+} 
+
+
+header p, /* selecteer locatie */
+nav > a {
+	position: absolute;
+	bottom: 3em;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+}
+
+nav > a svg {
+	height: 1em;
+}
+
+
+header p {
+	bottom:6.25em;
+	color: var(--color-grey);
+	font-weight: 600;
+}
+
+nav hr {
+	border-top: 0.01em solid var(--color-grey);
+	position: absolute;
+ 	bottom: 10em;
+  	left: 10%;
+  	right: 10%;
+}
+
+/* laat submenus verschijnen */
+header nav ul li #ontdeklist.toonOntdek {
+	display: inline;
+}
+
+header nav ul li #impactlist.toonImpact {
+	display: inline;
+}
+
+header nav ul li #ontdeklist.wegOntdek {
+	display: hidden;
+}
+
+/* states header*/
+header > button:focus,
+header nav > button:focus,
+header nav ul li a:focus,
+header nav ul li button:focus,
+header nav ul li ul li a:focus,
+nav > a:focus {
+	background-color: var(--color-colaroodbackground);
+
+}
+
+header nav ul li a:focus { /*maakt de tekst in de submenus dikker bij focus */
+	font-weight: 600;
+}
+
+header > button:active,
+header nav > button:active {
+	background-color: var(--color-colaroodbackground);
+}
+
+nav button:nth-of-type(2) {
+	position: absolute;
+	left: 1em
+}
+
+
+
+
+/* knoppen */
+section:nth-of-type(2) article a, 
+main section:nth-of-type(3) > a,
+nav > a,
+footer section:nth-of-type(1) > a { /* lees meer, locatie en alles bekijken buttons*/
+	text-decoration: none;
+	text-align: center;
+	color: var(--color-text);
+	font-weight: 600;
+	border-style: solid;
+	padding: .5em;
+	display: block;
+	border-width: 0.15em;
+	border-radius: 1em;
+}
+
+footer section:nth-of-type(1) a {
+	border-color: var(--color-text);
+	
+	width: 90%;
+	position: relative;
+	left: 1em;
+	
+}
+
+/* knoppen states */
+section:nth-of-type(2) article a:focus, 
+main section:nth-of-type(3) > a:focus,
+footer section:nth-of-type(1) > a:focus {
+	background-color: var(--color-colaroodbackground);
+}
+
+section:nth-of-type(2) article a:active, 
+main section:nth-of-type(3) > a:active,
+footer section:nth-of-type(1) > a:active {
+	border-width: 0.3em;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+	background-color: var(--color-footer);
+	color: var(--color-foreground);
+	height: 60em;
+}
+
+footer section:nth-of-type(1) img {
+	height: 5em;
+	width: 100%;
+	padding: 1em;
+
+	position: relative;
+	top: 2em;
+}
+
+footer section:nth-of-type(1) a {
+	position: relative;
+	top: 4em;
+	display: flex;
+	justify-content: center;
+}
+
+footer section:nth-of-type(1) a svg {
+	filter: invert(1);
+
+	height: 1em;
+	width: 1em;
+	
+	
+}
+
+footer hr {
+	border-top: 0.01em solid var(--color-grey);
+	position: relative;
+	max-width: 90%;
+	top: 6em
+}
+
+footer button { /* over ons en hulp nodig */
+	font-size: 1.5em;
+	font-weight: 600;
+	color: var(--color-text);
+	background-color: var(--color-footer);
+	line-height: 2em;
+
+	display: block;
+	width: 80%;
+	text-align: left;
+
+	position: relative;
+	left: 1em;
+	top: 5em;
+}
+
+footer section:nth-of-type(2) hr {
+	top: 9em
+}
+
+
+footer section:nth-of-type(2) a,
+footer section:nth-of-type(3) a,
+footer section:nth-of-type(4) a {
+	text-decoration: none;
+	color: var(--color-text);
+}
+
+footer section:nth-of-type(3) {
+	display: grid;
+  	grid-template-columns: 1fr 1fr;
+	line-height: 2em;
+	position: relative;
+	top: 11em;
+	padding-left: 1em;
+	background-color: var(--color-footer);
+}
+
+footer section:nth-of-type(4) { /*social media*/
+	position: relative;
+	background-color: var(--color-footer);
+	top: 16em;
+	display: flex;
+	max-width: 70%;
+	justify-content: space-around;
+}
+
+footer section:nth-of-type(4) svg {
+	filter: invert(1);
+	height: 2rem;
+	width: 2em;
+}
+
+footer > hr:first-of-type{
+	position: relative;
+	top: 13em
+}
+
+footer section:nth-of-type(5) {
+	background-color: var(--color-footer);
+
+	position: relative;
+	top: 20em;
+	display: flex;
+	justify-content: space-around;
+	
+}
+
+footer > hr:nth-of-type(2) {
+	position: relative;
+	top: 18em;
+}
+
+footer section:nth-of-type(5) img {
+	height: 2.8em;
+
+	border: 0.01em solid;
+	border-color: var(--color-background);
+	border-radius: 1em;
+}
+
+footer p {
+	font-size: 0.8em;
+	max-width: 80%;
+	position: relative;
+	padding-left: 1em;
+	top: 27em;
+	color: var(--color-text);
+}
+
+/*states footer */
+footer button:focus,
+footer section:nth-of-type(3) a:focus {
+	background-color: var(--color-colaroodbackground);
+}
+
+footer section:nth-of-type(3) a:focus {
+	font-weight: 600;
+}
+
+footer section:nth-of-type(4) a:nth-of-type(1):focus { 
+	background-color: var(--color-twitter);
+}
+
+footer section:nth-of-type(4) a:nth-of-type(2):focus { 
+	background-color: var(--color-insta);
+}
+
+footer section:nth-of-type(4) a:nth-of-type(3):focus { 
+	background-color: var(--color-colarood);
+}
+
+footer section:nth-of-type(4) a:nth-of-type(4):focus { 
+	background-color: var(--color-facebook);
+}

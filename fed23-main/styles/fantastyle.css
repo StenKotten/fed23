@@ -1,0 +1,149 @@
+header > img {
+    max-width: 4em;
+    max-height: 4em;
+    position: absolute;
+    top: 5em;
+    left: 45%;
+}
+
+header {
+   height: 9em;
+}
+
+header > button {
+    position: absolute;
+    top: 1.5em
+}
+
+h1 {
+    display: inline;
+    order: 2;
+    position: relative;
+}
+
+p,
+h2,
+h3 {
+    color: var(--color-text);
+}
+
+main > section {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    top: 0em;
+}
+
+section:nth-of-type(1) > img {
+    max-width: 80%;
+    max-height: 30%;
+    position: relative;
+    border-radius: 1em;
+    order: 1;
+    top: 1em
+}
+
+p {
+    max-width: 80%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+
+main section:nth-of-type(2) {
+    display: flex;
+}
+
+
+main section section p {
+    text-align: left;
+}
+
+main section:nth-of-type(2) > img,
+main section:nth-of-type(3) > img {
+    max-height: 15em;
+    background-color: var(--color-foreground);
+    padding: 1em;
+    border-radius: 1em;
+    order: -1;
+    margin-top: 4em;
+}
+
+main section:nth-of-type(2) > button, /* voedings voorwaarden bekijken button */
+main section:nth-of-type(3) > button {
+    color: var(--color-text);
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+section button svg {
+    filter: invert(0);
+    height: 1em;
+    width: 1em;
+}
+
+
+section section { /* voedingsinformatie */
+    background-color: var(--color-foreground);
+    max-width: 90%;
+    padding: 1em;
+    border-radius: 1em;
+    display: none;
+}
+
+main section #orangeList.toonOrange {
+    display: inline;
+}
+
+main section #pomeloList.toonPomelo {
+    display: inline;
+}
+
+span {
+    font-weight: 600;
+}
+
+section section section {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section section section p:first-of-type {
+    position: relative;
+    right: 1em
+}
+
+section section section p {
+    height: .1em;
+}
+
+section section hr {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+main > section:last-of-type {
+    background-color: var(--color-foreground);
+    max-width: 90%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1em;
+    padding: 1em;
+    position: relative;
+    left: 1em;
+}
+
+main section:last-of-type h2 {
+    width: 100%;
+    text-align: center;
+}
+
+main section:nth-last-of-type(2) {
+    padding-bottom: 3em;
+}
