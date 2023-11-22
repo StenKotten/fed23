@@ -334,17 +334,17 @@ Verder gegaan met het maken van css en het eerste beetje javascript in de vorm v
 Ik heb ik overal states toegevoegd. Deze manier van het laten zien van de state voor een social media link vond ik leuk gevonden. Het gebruikt de achtergrond kleur van het platform zelf. <img src='readme-images/week7-1.png' width="375px">
  
 ### week 8
-ik was al een tijdje aan het worstelen met het centreren van de merk logos in de knop.  <img src="readme-images/week8-1.png" width="375px" alt=""> <img src="readme-images/week8-2.png" width="375px" alt="">
+ik was al een tijdje aan het worstelen met het centreren van de merk logos in de knop.  <img src="readme-images/week8-1.png" width="375px" alt="probeer logos te centeren"> <img src="readme-images/week8-2.png" width="375px" alt="logos niet gecenterd">
 Ik gebruik chat-gpt wel eens om de juiste selector te vinden, en bij het typen van mijn vraag besefte ik mijn fout! Ik had namelijk het li element gestyled in plaats van het a element. Het enige wat ik nog moest toevoegen was dus een a.
 
 In pagina 1 heb ik overal states toegevoegd.
 Volledige html en css gedaan van pagina 2.
 
 Begonnen aan een easteregg. Ik probeer audio op deze manier af te spelen.
-<img src="readme-images/week8-3.png" width="375px" alt="">
+<img src="readme-images/week8-3.png" width="375px" alt="audio afspeel code">
 
  ### week 9 en 10 (herkansing)
-De kleine lelijkheidjes moeten er uit. Ik heb aan chatgpt gevraagd hoe dat moest. <img src='readme-images/week9-1.png' width="375px">
+De kleine lelijkheidjes moeten er uit. Ik heb aan chatgpt gevraagd hoe dat moest. <img src='readme-images/week9-1.png' width="375px" alt="chatgpt">
 Verder ben ik aan de slag gegaan om de states recht te trekken over pagina 1 en 2. Er waren nog wat inconsistencies.
 Overal aria labels aan toegevoegd en de toegankelijkheid verbetert.
 
