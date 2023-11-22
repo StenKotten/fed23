@@ -167,7 +167,27 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Lijst met je bevindingen die in de test naar voren kwamen:
+  ## Screenreader
+  De gebruiker wordt de titel van de pagina voorgelezen. Alle linkjes zijn duidelijk en hebben extra context gekregen.
+  Het wilde eerst niet lukken om het hoofd menu te openen, en dan niet de content te skippen. Dit kwam door een aria-hidden=true op de nav. Als het hoofdmenu niet wordt geopend hoeven we dit ook niet te horen natuurlijk. In javascript heb ik dit aangepast. <img src="/readme-images/tt1.png">
+  Er wordt geen content overgeslagen.
+
+  ## WCAG Checklist
+  In de vorige test kwam de website er niet heel goed uit. 
+  Content: Onduidelijkheden in de links zijn verbeterd.
+  Global code: Geen errors in de html check, lang gebruikt en unieke titels.
+  Keyboard: Aparte focus en active states gemaakt voor alle links en buttons.
+  Mobile and touch: Op mobiel getest en de website zag er hetzelfde uit. Roteren en zoomen kan.
+  Headings: H1 is toegevoegd, elke sectie heeft haar eigen H1-4 element. H4 elementen zijn alleen zichtbaar voor screenreaders en geven extra context. Geen heading levels geskipt.
+  Lists: Lijsten gebruikt waar toepasbaar.
+  Images: Alle imgs hebben een alt en decoratieve imgs hebben alt"". Tekst in de afbeeldingen staat in de alt.
+  Media:
+  Controls: Juiste elementen zijn gebruikt en links lijken op links. Elk control heeft een focus state met een border.
+  Appearance: Er is een dark en light mode. Tekst schaalt mee. High contrast mode is supported.
+  Animation: Bijna elke animatie heeft een reduced motion media query. Degene die dat niet hebben zijn het roteren van de chevrons. Dit gaat met 1s en is klein.
+  Color contrast: Mijn wcag color contrast checker geeft aan dat de h2 in de artikelen niet goed leesbaar zijn, echter is dit juist verbeterd door het toevoegen van een gradient achtergrond. Ook geeft het aan dat het contrast op de merk knoppen niet goed genoeg is met de achtergrond, echter denk ik dat omdat de logo's zelf nog zijn toegevoegd, en het niet een wit vlak op een wit vlak is, het wel voldoet. Verder doorstaat mijn website de test als het gaat om contrast.
+  
 
 </details>
 
@@ -259,6 +279,8 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   11. https://www.coca-cola.com/nl/nl
   12. https://www.youtube.com/watch?v=z54MpfR3XE4
   13. https://fontawesomeicons.com/svg/icons/chevron-down
+  14. https://www.sitepoint.com/delay-sleep-pause-wait/
+  15. chatgpt voor fixen kromme svgs (zie week 9)
 
 </details>
 
