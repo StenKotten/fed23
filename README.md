@@ -182,7 +182,7 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   Headings: H1 is toegevoegd, elke sectie heeft haar eigen H1-4 element. H4 elementen zijn alleen zichtbaar voor screenreaders en geven extra context. Geen heading levels geskipt.
   Lists: Lijsten gebruikt waar toepasbaar.
   Images: Alle imgs hebben een alt en decoratieve imgs hebben alt"". Tekst in de afbeeldingen staat in de alt.
-  Media:
+  Media: In een easteregg zit geluid dat niet kan worden gestopt. Het autoplayt niet.
   Controls: Juiste elementen zijn gebruikt en links lijken op links. Elk control heeft een focus state met een border.
   Appearance: Er is een dark en light mode. Tekst schaalt mee. High contrast mode is supported.
   Animation: Bijna elke animatie heeft een reduced motion media query. Degene die dat niet hebben zijn het roteren van de chevrons. Dit gaat met 1s en is klein.
@@ -238,19 +238,23 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
-
+  <img src="readme-images/eind1.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/eind2.png" width="375px" alt="uitkomst opdracht 1">
+  <img src="readme-images/eind3.png" width="375px" alt="uitkomst opdracht 1">
+  
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  Ik ben vooral trots op het feit dat ik eindelijk een keertje dit vak tot het einde heb uitgezeten. In het verleden gaf ik met een tegenslag al snel op, maar dit keer niet zelfs met twee weken ziek te zijn.
+  Ik heb in de twee weken ziekte wel een achterstand opgebouwd, maar uiteindelijk ben ik weer bij gekomen. Zeker met een code vak is het makkelijk om snel op te geven en ik ben tevreden met mijn doorzettingsvermogen.
+  Qua code heb ik veel geleerd over toegankelijkheid. Ik denk dat deze manieren om toegankelijkheid te verbeteren (onder andere dmv states) een inspiratie bron voor latere projecten kan zijn.
+  Code uberhaupt kunnen lezen is een vooruitgang voor mij, en met deze kennis kan ik ook bijvoorbeeld kleine tweaks maken in designs.
+  
+  <img src="readme-images/eind5.png" width="375px" alt="mooi stukje code">
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Er zijn zoveel verschillende manieren om dingen op te lossen, dat ik een beetje overdonderd raak. De juiste methode vinden is lastig en kan frustrerend zijn als je lang bezig bent.
+  Alles wat ik wilde namaken en verbeteren is eigenlijk gelukt.
+  
+  <img src="readme-images/eind4.png" width="375px" alt="minder goed">
 </details>
 
 
@@ -290,34 +294,51 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  ### Oefening 1 en 2 van werkgroep 1
+  ### Week 1
   <img src="readme-images/wg1oef1en2.png" width="375px" alt="oefening1 uitwerking screenshot">
 
   Zie hierboven het resultaat van oefening 1 en 2. Mijn uitwerking is niet perfect, want de appelboer poster werkt niet responsive. De onderdelen van de zin blijven niet juist onder elkaar staan.
   Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/poqPZvx?editors=1100">CodePen Oefening 1 en 2 van Sten</a>
 
-  ### Oefening 1 Grid
+  ### Week 2
+  Breakdownschetsen gemaakt en pagina uitgekozen.
+  
   De oefening van Grid heb ik tot en met som 5 zonder de uitwerking gemaakt. Som 6 lukte niet, omdat iets nog aan stond wat de boel verpestte. Met de uitwerking ernaast lukte het me om de code op de goede plek te zetten. 
   Ik heb som 7 (voor de rode piste) ook nog gedaan, zonder de uitwerking, maar als de selectoren al niet in de codepen stonden was het me denk ik niet zo makkelijk gelukt.
   Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/BavmQEB">CodePen Grid Oefening 1 van Sten</a>
 
-  ### Oefening 2 Grid
   Alleen de laatste is me niet gelukt.
   Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/dywZNZE">CodePen Grid Oefening 2 van Sten</a>
 
-  ### Oefening 1 Flex
+  ### Week 3
+  Html pagina gemaakt voor het voortgangsgesprek. 
+  
   Oefening is gelukt zonder naar de uitwerkingen te kijken! Ik vond deze makkelijker dan de grid oefeningen. Zelfs de zwarte piste oefening was gelukt! Het juist selecteren van de parent en child is iets dat naar mijn idee best wel goed gaat.
   Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/LYMOzRj?editors=1100">CodePen Flex Oefening 1 van Sten</a>
 
+ ### Week 4
+ Ziek.
 
+  ### Week 5
+  Ziek.
 
-### Oefening 1 Positioneren
+ ### Week 6
 Ik ben een tijdje ziek geweest, en deze oefening nog niet gemaakt. Ik had een vraag tijdens het tweede voortgangsgesprek over positioneren, en die is na het maken van de oefeningen opgelost met de z-index.
-Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/jOXdxvZ">CodePen Flex Oefening 1 van Sten</a>
+Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/jOXdxvZ">CodePen positioneren Oefening 1 van Sten</a>
 
-### week x
+Ik ben begonnen met het toevoegen van css. De header en footer nog niet aan begonnen. <img src='readme-images/voortgang3-1.png'>
+
+ ### Week 7
+Verder gegaan met het maken van css en het eerste beetje javascript in de vorm van het menu. De footer is ook klaar
+
+ 
+### week 8
 ik was al een tijdje aan het worstelen met het centreren van de merk logos in de knop.  <img src="readme-images/week8-1.png" width="375px" alt=""> <img src="readme-images/week8-2.png" width="375px" alt="">
 Ik gebruik chat-gpt wel eens om de juiste selector te vinden, en bij het typen van mijn vraag besefte ik mijn fout! Ik had namelijk het li element gestyled in plaats van het a element. Het enige wat ik nog moest toevoegen was dus een a.
+
+ ### herkansing
+
+ 
   </details>
 
   
