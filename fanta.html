@@ -17,10 +17,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
-
-
-
-
 <body>
 	<a href="#skip">Skip naar content</a> <!-- https://css-tricks.com/how-to-create-a-skip-to-content-link/ -->
 	<header>
@@ -83,6 +79,7 @@
 			<a href="#" aria-label="Selecteer uw huidige locatie. Nu: Nederland."><svg fill="#000000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 395.71 395.71" xml:space="preserve"><g stroke-width="0"></g><g stroke-linecap="round" stroke-linejoin="round"></g><g> <g> <path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738 c0.579,0.792,1.501,1.255,2.471,1.255c0.985,0,1.901-0.463,2.486-1.255l4.948-6.738c5.308-7.211,129.896-177.501,129.896-250.388 C335.179,61.609,273.569,0,197.849,0z M197.849,88.138c27.13,0,49.191,22.062,49.191,49.191c0,27.115-22.062,49.191-49.191,49.191 c-27.114,0-49.191-22.076-49.191-49.191C148.658,110.2,170.734,88.138,197.849,88.138z"></path> </g> </g></svg>Nederland</a>
 		</nav>
 	</header>
+
     <main id="#skip">
         <section>
 		    <h1>Producten</h1>
@@ -90,16 +87,16 @@
         </section>
         <section>
             <h2>Fanta Orange</h2>
-            <img src="images/fanta1.webp">
+            <img src="images/fanta1.webp" alt="Fanta orange flesje.">
             <p>Zoals je weet is het drinken van Fanta Orange, dankzij zijn authentieke smaak, een unieke ervaring! Maar wat je misschien nog niet wist, is dat, wanneer je Fanta Orange drinkt, je eigenlijk volop geniet van een drank met sinaasappelsap* met natuurlijke aroma’s. Welcome to the fun, natuurlijk!</p>
             <p>*Uit sapconcentraat</p>
             <p>**Fanta Orange recepten kunnen verschillen in Europa</p>
-            <button id="Orange">Voedingswaarden bekijken <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" id="chevOrange" class="bi bi-chevron-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/> </svg> </button>
+            <button aria-label="Bekijk de voedingswaarde van Fanta Orange" id="Orange">Voedingswaarden bekijken <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" id="chevOrange" class="bi bi-chevron-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/> </svg> </button>
             <section id="orangeList">
                 <h3>Voedingsinformatie</h3>
                 <hr>
                 <section>
-				<h4>Portie grootte</h4>
+				<h4 aria-hidden="false">Portie grootte</h4>
                 <p>Portie</p>
                 <p>per 100ml</p>
                 </section>
@@ -119,14 +116,14 @@
         </section>
         <section>
             <h2>Fanta Pomelo Zero Sugar</h2>
-            <img src="images/fanta2.webp">
+            <img src="images/fanta2.webp" alt="Fanta pomelo zero sugar flesje.">
             <p>Zoals Pomelo smaakt: een klein zuurtje, een bittertje en een zoetje. Perfect in balans en vooral te lekker om te laten staan! Onze Fanta Pomelo Zero Sugar is een heerlijke verfrissing voor elk moment.</p>
-            <button id="Pomelo">Voedingswaarden bekijken<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" id="chevPomelo" class="bi bi-chevron-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/> </svg></button>
+            <button aria-label="Bekijk de voedingswaarde van Fanta Pomelo Zero sugar." id="Pomelo">Voedingswaarden bekijken<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" id="chevPomelo" class="bi bi-chevron-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/> </svg></button>
             <section id="pomeloList">
                 <h3>Voedingsinformatie</h3>
                 <hr>
                 <section>
-				<h4>Portie grootte</h4>
+				<h4 aria-hidden="false">Portie grootte</h4>
                 <p>Portie</p>
                 <p>per 100ml</p>
                 </section>
@@ -162,22 +159,23 @@
 			</svg></a>
         </section>
     </main>
+
 	<footer>
 		<section>
-			<h4>Footer</h4>
+			<h4 aria-hidden="false">Footer</h4>
 			<img src="images/logo_wit.webp" alt="Coca-Cola logo">
 			<a href="#" aria-label="Selecteer uw huidige locatie. Nu: Nederland."><svg fill="#000000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 395.71 395.71" xml:space="preserve"><g stroke-width="0"></g><g  stroke-linecap="round" stroke-linejoin="round"></g><g > <g> <path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738 c0.579,0.792,1.501,1.255,2.471,1.255c0.985,0,1.901-0.463,2.486-1.255l4.948-6.738c5.308-7.211,129.896-177.501,129.896-250.388 C335.179,61.609,273.569,0,197.849,0z M197.849,88.138c27.13,0,49.191,22.062,49.191,49.191c0,27.115-22.062,49.191-49.191,49.191 c-27.114,0-49.191-22.076-49.191-49.191C148.658,110.2,170.734,88.138,197.849,88.138z"></path> </g> </g></svg>Nederland</a>
 			<hr>
 		</section>
 		<section>
-			<h4>Extra informatie</h4>
+			<h4 aria-hidden="false">Extra informatie</h4>
 			<button aria-label="Open over ons">Over ons</button>
 			<button aria-label="Open hulp nodig">Hulp nodig?</button>
 			<hr>
 		</section>
 		<!--voorwaarden etc-->
 		<section>
-			<h4>Voorwaarden en dergelijke</h4>
+			<h4 aria-hidden="false">Voorwaarden en dergelijke</h4>
 			<a href="#" aria-label="Bekijk de voorwaarden van deze site.">Voorwaarden</a>
 			<a href="#" aria-label="Bekijk het cookiebeleid.">Cookiebeleid</a>
 			<a href="#" aria-label="Bekijk het privacybeleid.">Privacybeleid</a>
@@ -186,7 +184,7 @@
 		<hr>
 		<!--social media-->
 		<section> <!-- bron van de svgs: https://icons8.com/icon/set/social-media/material -->
-			<h4>Social media links</h4>
+			<h4 aria-hidden="false">Social media links</h4>
 			<a href="#" aria-label="Onze Twitter pagina."><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
 				<path d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z"></path>
 			</svg></a>
@@ -202,14 +200,13 @@
 		</section>
 		<hr>
 		<section>
-			<h4>Apps</h4>
+			<h4 aria-hidden="false">Apps</h4>
 			<a href="#" aria-label="Download de Coca-Cola app in de Appstore."><img src="images/badge_apple.webp" alt="Available on the appstore"></a>
 			<a href="#" aria-label="Download de Coca-Cola app op Google Play."><img src="images/badge_google.webp" alt="Get it on google play"></a>
 		</section>
 		<p>© The Coca‑Cola Company, alle rechten voorbehouden</p>
 	</footer>
 
-	
 	<script defer src="scripts/scriptfanta.js"></script>
 	<script defer src="scripts/scriptalgemeen.js"></script>
 	

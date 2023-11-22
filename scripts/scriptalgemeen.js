@@ -10,6 +10,7 @@ openButton.onclick = openMenu;
 function openMenu() {  // bron https://codepen.io/shooft/pen/MWZYoqa?editors=0010
     var deNav = document.querySelector("nav");
     deNav.classList.add("toonMenu");
+    document.querySelector('nav').setAttribute('aria-hidden', 'false');
   }
 
 

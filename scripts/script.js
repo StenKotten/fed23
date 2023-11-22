@@ -1,87 +1,3 @@
-// JavaScript Document
-console.log("hi");
-
-
-// voor openen
-var openButton = document.querySelector("header > button");
-
-openButton.onclick = openMenu;
-
-function openMenu() {  // bron https://codepen.io/shooft/pen/MWZYoqa?editors=0010
-    var deNav = document.querySelector("nav");
-    deNav.classList.add("toonMenu");
-  }
-
-
-// voor sluiten
-var sluitButton = document.querySelector("nav > button");
-
-// stap 2 - laat die button luisteren naar kliks
-sluitButton.onclick = sluitMenu;
-
-// stap 3 - in de functie verwijder de class van de nav
-function sluitMenu() {
-  var deNav = document.querySelector("nav");
-  deNav.classList.remove("toonMenu");
-}
-
-
-
-
-// openen van ontdek in menu
-var openOntdekButton = document.querySelector("#ontdek");
-
-openOntdekButton.onclick = openOntdek;
-
-function openOntdek() {
-  var Ontdek = document.querySelector("#ontdeklist");
-
-  if( openOntdekButton.classList.contains("open")) {
-    Ontdek.classList.remove("toonOntdek");
-    openOntdekButton.classList.remove("open");
-  } else {
-    Ontdek.classList.add("toonOntdek");
-    openOntdekButton.classList.add("open");
-  }
-
-  
-}
-
-
-// openen van impact in menu
-var openImpactButton = document.querySelector("#impact");
-
-openImpactButton.onclick = openImpact;
-
-function openImpact() {
-  var Impact = document.querySelector("#impactlist");
-
-  if( openImpactButton.classList.contains("open")) {
-    Impact.classList.remove("toonImpact");
-    openImpactButton.classList.remove("open");
-  } else {
-    Impact.classList.add("toonImpact");
-    openImpactButton.classList.add("open");
-  }
-
-  
-}
-
-
-// // openen van impact in menu
-// var openImpactButton = document.querySelector("#impact");
-
-// openImpactButton.onclick = openImpact;
-
-// function openImpact() {
-//   var Impact = document.querySelector("#impactlist");
-//   Impact.classList.add("toonImpact");
-
-//   console.log("Impact gemaakt");
-
-//   document.getElementById("chev2").style.transform = "rotate(0deg)"; //https://www.w3schools.com/jsref/prop_style_transform.asp
-// }
-
 
 // SCROLL ANIMATIE van https://alvarotrigo.com/blog/css-animations-scroll/
 function reveal() {
@@ -107,15 +23,8 @@ reveal();
 
 
 
-// speel audio af bij hover, bron: https://css-tricks.com/play-sound-on-hover/
-// var audio = document.getElementById("mySoundClip");
-// audio.play();
 
-// var audio = $("#mySoundClip")[0];
-// $("#pepsi").mouseenter(function() {
-//   audio.play();   
-// });
-
+// pepsi man animatie
 function sleep(ms) { // https://www.sitepoint.com/delay-sleep-pause-wait/
   return new Promise(resolve => setTimeout(resolve, ms));
 }
