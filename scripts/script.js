@@ -35,25 +35,17 @@ openOntdekButton.onclick = openOntdek;
 
 function openOntdek() {
   var Ontdek = document.querySelector("#ontdeklist");
-  Ontdek.classList.add("toonOntdek");
 
-  console.log("ontdekking geslaagd");
+  if( openOntdekButton.classList.contains("open")) {
+    Ontdek.classList.remove("toonOntdek");
+    openOntdekButton.classList.remove("open");
+  } else {
+    Ontdek.classList.add("toonOntdek");
+    openOntdekButton.classList.add("open");
+  }
 
-  document.getElementById("chev1").style.transform = "rotate(0deg)"; //https://www.w3schools.com/jsref/prop_style_transform.asp
+  
 }
-
-
-//sluiten van ontdek in menu
-// var sluitOntdekButton = document.querySelector("#ontdek");
-
-// sluitOntdekButton.onclick = sluitOntdek;
-
-// function sluitOntdek() {
-//   var Ontdek = document.querySelector("#ontdek");
-//   Ontdek.classList.add("wegOntdek");
-
-//   console.log("ontdekking gestaakt");
-// }
 
 
 // openen van impact in menu
@@ -63,12 +55,32 @@ openImpactButton.onclick = openImpact;
 
 function openImpact() {
   var Impact = document.querySelector("#impactlist");
-  Impact.classList.add("toonImpact");
 
-  console.log("Impact gemaakt");
+  if( openImpactButton.classList.contains("open")) {
+    Impact.classList.remove("toonImpact");
+    openImpactButton.classList.remove("open");
+  } else {
+    Impact.classList.add("toonImpact");
+    openImpactButton.classList.add("open");
+  }
 
-  document.getElementById("chev2").style.transform = "rotate(0deg)"; //https://www.w3schools.com/jsref/prop_style_transform.asp
+  
 }
+
+
+// // openen van impact in menu
+// var openImpactButton = document.querySelector("#impact");
+
+// openImpactButton.onclick = openImpact;
+
+// function openImpact() {
+//   var Impact = document.querySelector("#impactlist");
+//   Impact.classList.add("toonImpact");
+
+//   console.log("Impact gemaakt");
+
+//   document.getElementById("chev2").style.transform = "rotate(0deg)"; //https://www.w3schools.com/jsref/prop_style_transform.asp
+// }
 
 
 // SCROLL ANIMATIE van https://alvarotrigo.com/blog/css-animations-scroll/
@@ -104,30 +116,32 @@ reveal();
 //   audio.play();   
 // });
 
-
-
-var openOrangeButton = document.querySelector("#Orange");
-
-openOrangeButton.onclick = openOrange;
-
-function openOrange() {
-  var Orange = document.querySelector("#orangeList");
-  Orange.classList.add("toonOrange");
-
-  console.log("Limonade gemaakt");
-
+function sleep(ms) { // https://www.sitepoint.com/delay-sleep-pause-wait/
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 
+var cocacolalogo = document.querySelector(".cola.reveal");
+cocacolalogo.onclick = speelMuziek;
+function speelMuziek() {
+  var muziek = document.querySelector("audio");
+  muziek.play();
 
-var openPomeloButton = document.querySelector("#Pomelo");
+  var pepsi = document.querySelector("#pepsiman");
+  pepsi.classList.add("start");
 
-openPomeloButton.onclick = openPomelo;
+  var explosie = document.querySelector("#explosie");
+  explosie.classList.add("start");
 
-function openPomelo() {
-  var Pomelo = document.querySelector("#pomeloList");
-  Pomelo.classList.add("toonPomelo");
+  sleep(8000).then(() => { // eerst 8 seconden wachten
+  var colalogo = document.querySelector("#cola"); 
+  colalogo.classList.add("start");
 
-  console.log("Limonade gemaakt");
+  var pepsilogo = document.querySelector("#pepsi");
+  pepsilogo.classList.add("start");
+  console.log("starten maar") });
+  
+  }
 
-}
+
+

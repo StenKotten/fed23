@@ -79,12 +79,14 @@ main section:nth-of-type(3) > button {
     color: var(--color-text);
     padding-top: 1em;
     padding-bottom: 2em;
+    font-weight: 600;
 }
 
 section button svg {
     filter: invert(0);
     height: 1em;
     width: 1em;
+    
 }
 
 
@@ -96,15 +98,34 @@ section section { /* voedingsinformatie */
     display: none;
 }
 
-main section #orangeList.toonOrange {
+#orangeList.toonOrange {
     display: inline;
 }
 
-main section #pomeloList.toonPomelo {
+#chevOrange.draai {
+    transform: rotate(180deg);
+    transition: .5s;
+}
+
+#chevOrange {
+    transition: .5s;
+}
+
+#pomeloList.toonPomelo {
     display: inline;
 }
 
-span {
+#chevPomelo.draai {
+    transform: rotate(180deg);
+    transition: .5s;
+}
+
+#chevPomelo {
+    transition: .5s;
+}
+
+
+span { /* de voedingswaarden dik maken */
     font-weight: 600;
 }
 
@@ -144,6 +165,13 @@ main section:last-of-type h2 {
     text-align: center;
 }
 
-main section:nth-last-of-type(2) {
+main section:nth-last-of-type(1) {
+    position: relative;
+    top: 3em;
     padding-bottom: 3em;
+}
+
+footer {
+    position: relative;
+    top: 6em;
 }

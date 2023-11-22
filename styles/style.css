@@ -34,15 +34,6 @@ section:nth-of-type(1) img {
 	
 }
 
-/* thuis verder */
-section:nth-of-type(1) h2::after {
-	content:"";
-	background: linear-gradient(0deg, rgba(2,0,36,0.8072362734156162) 0%, rgba(49,49,65,0.5831466375612745) 69%, rgba(255,255,255,0) 100%); /* gradient gemaakt met https://cssgradient.io/ */
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-} 
-
 /*posities bepalen van de cover */
 section:nth-of-type(1) ul li:first-child img {
 	object-position: center;
@@ -55,14 +46,15 @@ section:nth-of-type(1) ul li:nth-child(3) img {
 }
 
 section:nth-of-type(1) li h2 {
-	color: var(--color-text);
+	color: var(--color-text-darkbg);
 	text-align: center;
 	position: absolute;
 	width: 100%;
 	padding: 1em;
 	opacity: 1;
 	background: linear-gradient(0deg, rgba(2,0,36,0.8072362734156162) 0%, rgba(49,49,65,0.5831466375612745) 69%, rgba(255,255,255,0) 100%); /* gradient gemaakt met https://cssgradient.io/ */
-	
+	margin-bottom: 0;
+	border-radius: .5em;
 }
 
 /* states */
@@ -109,6 +101,8 @@ section:nth-of-type(2) article a:focus,
 main section:nth-of-type(3) > a:focus,
 footer section:nth-of-type(1) > a:focus {
 	background-color: var(--color-colaroodbackground);
+	border-color: var(--color-focus);
+	border-width: .15em;
 }
 
 section:nth-of-type(2) article a:active, 
@@ -230,6 +224,8 @@ main section:nth-of-type(3) > a { /*alles bekijken knop*/
 section:nth-of-type(3) ul li a:focus {
 	background-color: var(--color-colaroodbackground);
 }
+
+
 
 
 /* pepsi man animatie */
@@ -385,17 +381,12 @@ section:nth-of-type(3) ul li div > img:nth-of-type(2) { /*explosie */
 		visibility: visible
 	}
 	10% {
-		visibility: visible;
+		display: inline;
 	}
 	62% {
-		visibility: hidden;
+		display: none;
 	}
-	70% {
-		opacity: 0;
-	}
-	90% {
-		opacity: 0;
-	}
+	
 	100% {
 		visibility: hidden;
 	}
@@ -403,26 +394,21 @@ section:nth-of-type(3) ul li div > img:nth-of-type(2) { /*explosie */
 
 
 
-li[aria-label="pepsi man"]:hover div img {
-	animation-duration: 15s;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in-out;
-}
 
-li[aria-label="pepsi man"]:hover div > img:first-of-type  {
+#pepsiman.start {
 	animation-name: pepsiman-animation;
+	animation-duration: 15s;
 }
 
-li[aria-label="pepsi man"]:hover div img:last-of-type  {
+#explosie.start {
 	animation-name: explosie-animation;
-	animation-timing-function: linear;
+	animation-duration: 15s;
 }
 
-li[aria-label="pepsi man"]:hover a img:first-of-type {
-	animation-name: colalogo;
-}
-
-audio {
+#cola.start {
 	display: none;
 }
 
+#pepsi.start {
+	display: inline;
+}

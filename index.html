@@ -7,9 +7,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
 	<title>Coca-Cola Nederland</title>
-	
-	<link href="styles/algemeen.css" rel="stylesheet">
 	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/algemeen.css" rel="stylesheet">
+	
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,69 +20,70 @@
 <body>
 	
 	
-	<a href="#skip">Skip naar content</a> <!-- https://css-tricks.com/how-to-create-a-skip-to-content-link/ -->
+	<a href="#skip" aria-label="Klik hier om naar de content te skippen.">Skip naar content</a> <!-- https://css-tricks.com/how-to-create-a-skip-to-content-link/ -->
 	<header>
-		<a href="#" aria-label="home knop">
+		<a href="#" aria-label="Klik hier om naar home te gaan.">
 			<img src="images/logo_zwart.webp" alt="coca-cola logo, home knop"> 
 		</a>
-		<button aria-label="Open hoofdmenu"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+		<button aria-label="Klik hier om het hooofdmenu te openen." aria-expanded="false" aria-haspopup="true" aria-controls="menu-id"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
 			<path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"></path>
 			</svg></button>
-		<nav>
-			<button aria-label="Sluit hoofdmenu"><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 64 64" id="cross"><line x1="9.37" x2="54.63" y1="9.37" y2="54.63" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width="4"></line><line x1="9.37" x2="54.63" y1="54.63" y2="9.37" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width="4"></line></svg> </button>
+		<nav aria-hidden="true">
+			<button aria-label="klik hier om het hoofdmenu te sluiten."><svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 64 64" id="cross"><line x1="9.37" x2="54.63" y1="9.37" y2="54.63" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width="4"></line><line x1="9.37" x2="54.63" y1="54.63" y2="9.37" fill="none" stroke="#010101" stroke-miterlimit="10" stroke-width="4"></line></svg> </button>
 			<ul>
 				<li>
 					<a href="#" aria-label="Bekijk het overzicht van al onze merken.">Merken</a>
 				</li>
 				<li>
-					<button aria-label="Ontdek meer van Coca-Cola." id="ontdek">Ontdek <svg id="chev1" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/></svg></button>
+					<button aria-label="Klik hier om meer te ontdekken van Coca-Cola." id="ontdek">Ontdek <svg id="chev1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/></svg></button>
 					<ul id="ontdeklist">
 						<li>
-							<a href="#">Coca-Cola App</a>
+							<a href="#" aria-label="Lees informatie over de Coca-Cola app.">Coca-Cola App</a>
 						</li>
 						<li>
-							<a href="#">Fanta Halloween</a>
+							<a href="#" aria-label="Lees informatie over Fanta Halloween. ">Fanta Halloween</a>
 						</li>
 						<li>
-							<a href="#">Coca-Cola Creations</a>
+							<a href="#" aria-label="Lees informatie over Coca-Cola Creations.">Coca-Cola Creations</a>
 						</li>
 						<li>
-							<a href="#">Festivals</a>
+							<a href="#" aria-label="Lees informatie over aabkomende Festivals">Festivals</a>
 						</li>
 						<li>
-							<a href="#">Coke Studio</a>
+							<a href="#" aria-label="Lees informatie over Coke Studio.">Coke Studio</a>
 						</li>
 						<li>
-							<a href="#">Coke Meals</a>
+							<a href="#" aria-label="Lees informatie over Coke Meals.">Coke Meals</a>
 						</li>
 						<li>
-							<a href="#">Sprite Heat</a>
+							<a href="#" aria-label="Lees informatie over Sprite Heat.">Sprite Heat</a>
 						</li>
 						<li>
-							<a href="#">Sweat is Beautiful</a>
+							<a href="#" aria-label="Lees informatie over Sweat is Beautiful.">Sweat is Beautiful</a>
 						</li>
 					</ul>
 				</li>
 				<li>
-					<button aria-label="Leer meer over onze impact." id="impact">Impact <svg id="chev2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/></svg></button>
+					<button aria-label="Klik hier om meer te ontdekken over onze impact." id="impact">Impact <svg id="chev2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 17.414 3.293 8.707l1.414-1.414L12 14.586l7.293-7.293 1.414 1.414L12 17.414z"/></svg></button>
 					<ul id="impactlist">
 						<li>
-							<a href="#">Duurzaamheid</a>
+							<a href="#" aria-label="Lees informatie over wat coca-cola aan duurzaamheid doet.">Duurzaamheid</a>
 						</li>
 						<li>
-							<a href="#">Maatschappij</a>
+							<a href="#" aria-label="Lees informatie over watn coca-cola doet voor de Maatschappij.">Maatschappij</a>
 						</li>
 					</ul>
 				</li>
 			</ul>
 			<hr>
 			<p>Selecteer locatie</p>
-			<a href="#" aria-label="Selecteer uw huidige locatie. Nu: Nederland."><svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 395.71 395.71" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738 c0.579,0.792,1.501,1.255,2.471,1.255c0.985,0,1.901-0.463,2.486-1.255l4.948-6.738c5.308-7.211,129.896-177.501,129.896-250.388 C335.179,61.609,273.569,0,197.849,0z M197.849,88.138c27.13,0,49.191,22.062,49.191,49.191c0,27.115-22.062,49.191-49.191,49.191 c-27.114,0-49.191-22.076-49.191-49.191C148.658,110.2,170.734,88.138,197.849,88.138z"></path> </g> </g></svg>Nederland</a>
+			<a href="#" aria-label="Selecteer uw huidige locatie. Nu: Nederland."><svg fill="#000000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 395.71 395.71" xml:space="preserve"><g  stroke-width="0"></g><g  stroke-linecap="round" stroke-linejoin="round"></g><g> <g> <path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738 c0.579,0.792,1.501,1.255,2.471,1.255c0.985,0,1.901-0.463,2.486-1.255l4.948-6.738c5.308-7.211,129.896-177.501,129.896-250.388 C335.179,61.609,273.569,0,197.849,0z M197.849,88.138c27.13,0,49.191,22.062,49.191,49.191c0,27.115-22.062,49.191-49.191,49.191 c-27.114,0-49.191-22.076-49.191-49.191C148.658,110.2,170.734,88.138,197.849,88.138z"></path> </g> </g></svg>Nederland</a>
 		</nav>
 	</header>
 <main>
 		<h1>Coca Cola Nederland</h1>
 		<section id="skip"> <!-- Carousel met artikelen-->
+			<h4>Uitgelichte artikelen.</h4>
 			<ul>
 				<li>
 					<h2>Fanta Yummy Snacking</h2>
@@ -118,62 +119,66 @@
 		<section> <!-- Onze merken-->
 			<h2>Verken onze merken</h2>
 			<ul>
-				<li aria-label="pepsi man" id="pepsi">
+				<li>
 					<a class="cola reveal">
-						<img src="images/merkcoca.webp" alt="Coca-cola merk logo">
-						<img src="images/merkpepsi.png" alt="Pepsi merk logo">
+						<img src="images/merkcoca.webp" id="cola" alt="Coca-cola merk logo">
+						<img src="images/merkpepsi.png" id="pepsi" alt="Pepsi merk logo"> <!-- aria hidden -->
 					</a>
-					<div>
-						<img src="images/Pepsi_Man.webp" alt="Pepsi man" id="pepsiman">
-						<img src="images/explosie.png" alt="Explosie">
-						<audio controls muted autoplay><source src="audio/pepsimantheme.mp3" type="audio/mp3" id="mySoundClip">Your browser does not support the audio element.</audio>
+					<div aria-hidden="true">
+						<img src="images/Pepsi_Man.webp"  alt="Pepsi man" id="pepsiman">
+						<img src="images/explosie.png"  alt="Explosie" id="explosie">
+						<audio autoplay><source src="audio/pepsimantheme.mp3" type="audio/mp3" id="mySoundClip">Your browser does not support the audio element.</audio>
 					</div>
 				</li>
 				<li>
-					<a href="fanta.html" class="fanta reveal">
+					<a href="fanta.html" aria-label="Bekijk ons Fanta aanbod." class="fanta reveal">
 						<img src="images/merkfanta.webp" alt="Fanta merk logo">
 					</a>
 				</li>
 				<li>
-					<a href="#" class="sprite reveal">
+					<a href="#" aria-label="Bekijk ons Sprite aanbod." class="sprite reveal">
 						<img src="images/merksprite.webp" alt="Sprite merk logo">
 					</a>
 				</li>
 				<li>
-					<a href="#" class="aqua reveal">
+					<a href="#" aria-label="Bekijk ons Aquarius aanbod." class="aqua reveal">
 						<img src="images/merkaqua.webp" alt="Aquarius merk logo">
 					</a>
 				</li>
 				<li>
-					<a href="#" class="chaud reveal">
+					<a href="#" aria-label="Bekijk ons Chaudfontaine aanbod." class="chaud reveal">
 						<img src="images/merkchaud.webp" alt="Chaudfontaine merk logo">
 					</a>
 				</li>
 			</ul>
-			<a href="#" aria-label="Bekijk een overzicht van al onze merken">Alles bekijken</a>
+			<a href="#" aria-label="Bekijk een overzicht van al onze merken.">Alles bekijken</a>
 		</section>
 	</main>
 	<footer>
 		<section>
+			<h4>Footer</h4>
 			<img src="images/logo_wit.webp" alt="Coca-Cola logo">
-			<a href="#" aria-label="Selecteer uw huidige locatie. Nu: Nederland."><svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 395.71 395.71" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738 c0.579,0.792,1.501,1.255,2.471,1.255c0.985,0,1.901-0.463,2.486-1.255l4.948-6.738c5.308-7.211,129.896-177.501,129.896-250.388 C335.179,61.609,273.569,0,197.849,0z M197.849,88.138c27.13,0,49.191,22.062,49.191,49.191c0,27.115-22.062,49.191-49.191,49.191 c-27.114,0-49.191-22.076-49.191-49.191C148.658,110.2,170.734,88.138,197.849,88.138z"></path> </g> </g></svg>Nederland</a>
+			<a href="#" aria-label="Selecteer uw huidige locatie. Nu: Nederland."><svg fill="#000000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 395.71 395.71" xml:space="preserve"><g stroke-width="0"></g><g stroke-linecap="round" stroke-linejoin="round"></g><g> <g> <path d="M197.849,0C122.131,0,60.531,61.609,60.531,137.329c0,72.887,124.591,243.177,129.896,250.388l4.951,6.738 c0.579,0.792,1.501,1.255,2.471,1.255c0.985,0,1.901-0.463,2.486-1.255l4.948-6.738c5.308-7.211,129.896-177.501,129.896-250.388 C335.179,61.609,273.569,0,197.849,0z M197.849,88.138c27.13,0,49.191,22.062,49.191,49.191c0,27.115-22.062,49.191-49.191,49.191 c-27.114,0-49.191-22.076-49.191-49.191C148.658,110.2,170.734,88.138,197.849,88.138z"></path> </g> </g></svg>Nederland</a>
 			<hr>
 		</section>
 		<section>
+			<h4>Extra informatie</h4>
 			<button aria-label="Open over ons">Over ons</button>
 			<button aria-label="Open hulp nodig">Hulp nodig?</button>
 			<hr>
 		</section>
 		<!--voorwaarden etc-->
 		<section>
-			<a href="#">Voorwaarden</a>
-			<a href="#">Cookiebeleid</a>
-			<a href="#">Privacybeleid</a>
-			<a href="#">Cookie-instellingen</a>
+			<h4>Voorwaarden en dergelijke</h4>
+			<a href="#" aria-label="Bekijk de voorwaarden van deze site.">Voorwaarden</a>
+			<a href="#" aria-label="Bekijk het cookiebeleid.">Cookiebeleid</a>
+			<a href="#" aria-label="Bekijk het privacybeleid.">Privacybeleid</a>
+			<a href="#" aria-label="Bekijk de cookie instellingen.">Cookie-instellingen</a>
 		</section>
 		<hr>
 		<!--social media-->
 		<section> <!-- bron van de svgs: https://icons8.com/icon/set/social-media/material -->
+			<h4>Social media links</h4>
 			<a href="#" aria-label="Onze Twitter pagina."><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 24 24">
 				<path d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z"></path>
 			</svg></a>
@@ -189,6 +194,7 @@
 		</section>
 		<hr>
 		<section>
+			<h4>Apps</h4>
 			<a href="#" aria-label="Download de Coca-Cola app in de Appstore."><img src="images/badge_apple.webp" alt="Available on the appstore"></a>
 			<a href="#" aria-label="Download de Coca-Cola app op Google Play."><img src="images/badge_google.webp" alt="Get it on google play"></a>
 		</section>
@@ -196,6 +202,7 @@
 	</footer>
 
 	<script defer src="scripts/script.js"></script>
+	<script defer src="scripts/scriptalgemeen.js"></script>
 	
 </body>
 	

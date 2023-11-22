@@ -11,6 +11,7 @@
   /*********************/
   :root {
       --color-text:#111;
+	  --color-text-darkbg:#fff;
       --color-background:#ebebeb;
       --color-foreground:#fff;
       --color-merk:#fff;
@@ -19,7 +20,7 @@
       --color-shadow:#dbd8d8;
   
       --color-colarood:rgb(223, 50, 50); 
-      --color-colaroodfocus:rgb(97, 44, 44);
+      --color-focus:rgb(110, 209, 212);
       --color-colaroodbackground:rgba(223, 50, 50, 0.479);
       --color-fadedbackground:#302e2e;
       --color-grey:#a3a3a3;
@@ -28,7 +29,7 @@
       --color-insta:rgb(209, 38, 124);
       --color-facebook:rgb(53, 22, 194);
   
-      --noto-sans:
+      
   }
   
   @media (prefers-color-scheme: dark) { /* https://stuffandnonsense.co.uk/blog/redesigning-your-product-and-website-for-dark-mode */
@@ -72,6 +73,7 @@ body {
 
 
 h1,
+h4,
 header nav ul li ul {
 	display: none;
     color: var(--color-text);
@@ -95,7 +97,7 @@ body > a { /* skip to content button */
 	transition: transform 0.3s;
 
 	background-color: var(--color-fadedbackground);
-	color: var(--color-text);
+	color: var(--color-text-darkbg);
 	height: 2em;
 	padding: .2em;
 	z-index: 2;
@@ -226,9 +228,16 @@ svg {
 header nav ul li button svg { /* chevrons */
 	position: absolute;
 	right: 0;
-	top: -0.25em;
+	top: 0.5em;
 	transform: rotate(270deg);
+	max-height: 1em;
+	width: 2em;
 } 
+
+header nav ul li button svg path {
+	transform-origin: center;
+}
+
 
 
 header p, /* selecteer locatie */
@@ -264,13 +273,29 @@ header nav ul li #ontdeklist.toonOntdek {
 	display: inline;
 }
 
+#chev1.draai {
+    transform: rotate(180deg);
+    transition: .5s;
+}
+
+#chev1 {
+    transition: .5s;
+}
+
+
 header nav ul li #impactlist.toonImpact {
 	display: inline;
 }
 
-header nav ul li #ontdeklist.wegOntdek {
-	display: hidden;
+#chev2.draai {
+    transform: rotate(180deg);
+    transition: .5s;
 }
+
+#chev2 {
+    transition: .5s;
+}
+
 
 /* states header*/
 header > button:focus,
@@ -280,7 +305,8 @@ header nav ul li button:focus,
 header nav ul li ul li a:focus,
 nav > a:focus {
 	background-color: var(--color-colaroodbackground);
-
+	border-color: var(--color-focus);
+	border-width: .15em;
 }
 
 header nav ul li a:focus { /*maakt de tekst in de submenus dikker bij focus */
@@ -317,13 +343,17 @@ footer section:nth-of-type(1) > a { /* lees meer, locatie en alles bekijken butt
 }
 
 footer section:nth-of-type(1) a {
-	border-color: var(--color-text);
-	
+	border-color: var(--color-text-darkbg);
+	color: var(--color-text-darkbg);
 	width: 90%;
 	position: relative;
 	left: 1em;
 	
 }
+
+
+
+
 
 /* knoppen states */
 section:nth-of-type(2) article a:focus, 
@@ -337,7 +367,6 @@ main section:nth-of-type(3) > a:active,
 footer section:nth-of-type(1) > a:active {
 	border-width: 0.3em;
 }
-
 
 
 
@@ -368,6 +397,7 @@ footer section:nth-of-type(1) a {
 	top: 4em;
 	display: flex;
 	justify-content: center;
+	border-color: var(--color-text-darkbg);
 }
 
 footer section:nth-of-type(1) a svg {
@@ -389,7 +419,7 @@ footer hr {
 footer button { /* over ons en hulp nodig */
 	font-size: 1.5em;
 	font-weight: 600;
-	color: var(--color-text);
+	color: var(--color-text-darkbg);
 	background-color: var(--color-footer);
 	line-height: 2em;
 
@@ -411,7 +441,7 @@ footer section:nth-of-type(2) a,
 footer section:nth-of-type(3) a,
 footer section:nth-of-type(4) a {
 	text-decoration: none;
-	color: var(--color-text);
+	color: var(--color-text-darkbg);
 }
 
 footer section:nth-of-type(3) {
@@ -473,7 +503,7 @@ footer p {
 	position: relative;
 	padding-left: 1em;
 	top: 27em;
-	color: var(--color-text);
+	color: var(--color-text-darkbg);
 }
 
 /*states footer */
@@ -501,3 +531,4 @@ footer section:nth-of-type(4) a:nth-of-type(3):focus {
 footer section:nth-of-type(4) a:nth-of-type(4):focus { 
 	background-color: var(--color-facebook);
 }
+
