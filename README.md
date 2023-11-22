@@ -252,9 +252,9 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
 
   ### Dit was lastig/Is niet gelukt:
   Er zijn zoveel verschillende manieren om dingen op te lossen, dat ik een beetje overdonderd raak. De juiste methode vinden is lastig en kan frustrerend zijn als je lang bezig bent.
-  Alles wat ik wilde namaken en verbeteren is eigenlijk gelukt.
+  Alles wat ik wilde namaken en verbeteren is eigenlijk gelukt. Er zijn heus wel dingen verkeerd gegaan, maar na het vragen van hulp wordt alles opgelost.
   
-  <img src="readme-images/eind4.png" width="375px" alt="minder goed">
+  
 </details>
 
 
@@ -311,7 +311,7 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
   Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/dywZNZE">CodePen Grid Oefening 2 van Sten</a>
 
   ### Week 3
-  Html pagina gemaakt voor het voortgangsgesprek. 
+  Html pagina gemaakt voor het voortgangsgesprek. Het is nog niet compleet want er ontbreken nog dingetjes als iconen en een aantal onderliggende lijsten.
   
   Oefening is gelukt zonder naar de uitwerkingen te kijken! Ik vond deze makkelijker dan de grid oefeningen. Zelfs de zwarte piste oefening was gelukt! Het juist selecteren van de parent en child is iets dat naar mijn idee best wel goed gaat.
   Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/LYMOzRj?editors=1100">CodePen Flex Oefening 1 van Sten</a>
@@ -326,19 +326,28 @@ ik probeer het door een max width en height te geven aan de img, alleen ziet het
 Ik ben een tijdje ziek geweest, en deze oefening nog niet gemaakt. Ik had een vraag tijdens het tweede voortgangsgesprek over positioneren, en die is na het maken van de oefeningen opgelost met de z-index.
 Hier is de link naar de CodePen: <a href="https://codepen.io/stenkotten/pen/jOXdxvZ">CodePen positioneren Oefening 1 van Sten</a>
 
-Ik ben begonnen met het toevoegen van css. De header en footer nog niet aan begonnen. <img src='readme-images/voortgang3-1.png'>
+Html pagina inmiddel compleet gemaakt met alle content en ik ben begonnen met het toevoegen van css. De header en footer nog niet aan begonnen. 
+<img src='readme-images/voortgang3-1.png' width="375px">
 
  ### Week 7
-Verder gegaan met het maken van css en het eerste beetje javascript in de vorm van het menu. De footer is ook klaar
-
+Verder gegaan met het maken van css en het eerste beetje javascript in de vorm van het menu. De footer is ook klaar.
+Ik heb ik overal states toegevoegd. Deze manier van het laten zien van de state voor een social media link vond ik leuk gevonden. Het gebruikt de achtergrond kleur van het platform zelf. <img src='readme-images/week7-1.png' width="375px">
  
 ### week 8
 ik was al een tijdje aan het worstelen met het centreren van de merk logos in de knop.  <img src="readme-images/week8-1.png" width="375px" alt=""> <img src="readme-images/week8-2.png" width="375px" alt="">
 Ik gebruik chat-gpt wel eens om de juiste selector te vinden, en bij het typen van mijn vraag besefte ik mijn fout! Ik had namelijk het li element gestyled in plaats van het a element. Het enige wat ik nog moest toevoegen was dus een a.
 
- ### herkansing
+In pagina 1 heb ik overal states toegevoegd.
+Volledige html en css gedaan van pagina 2.
 
- 
+Begonnen aan een easteregg. Ik probeer audio op deze manier af te spelen.
+<img src="readme-images/week8-3.png" width="375px" alt="">
+
+ ### week 9 en 10 (herkansing)
+De kleine lelijkheidjes moeten er uit. Ik heb aan chatgpt gevraagd hoe dat moest. <img src='readme-images/week9-1.png' width="375px">
+Verder ben ik aan de slag gegaan om de states recht te trekken over pagina 1 en 2. Er waren nog wat inconsistencies.
+Overal aria labels aan toegevoegd en de toegankelijkheid verbetert.
+
   </details>
 
   
