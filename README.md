@@ -331,7 +331,7 @@ Html pagina inmiddel compleet gemaakt met alle content en ik ben begonnen met he
 
  ### Week 7
 Verder gegaan met het maken van css en het eerste beetje javascript in de vorm van het menu. De footer is ook klaar.
-Ik heb ik overal states toegevoegd. Deze manier van het laten zien van de state voor een social media link vond ik leuk gevonden. Het gebruikt de achtergrond kleur van het platform zelf. <img src='readme-images/week7-1.png' width="375px">
+Ik heb ik overal states toegevoegd. Deze manier van het laten zien van de state voor een social media link vond ik leuk gevonden. Het gebruikt de achtergrond kleur van het platform zelf. <img src='readme-images/week7-1.png' width="375px" alt="kleurrijke code">
  
 ### week 8
 ik was al een tijdje aan het worstelen met het centreren van de merk logos in de knop.  <img src="readme-images/week8-1.png" width="375px" alt="probeer logos te centeren"> <img src="readme-images/week8-2.png" width="375px" alt="logos niet gecenterd">
